@@ -1,4 +1,16 @@
 body {
     height: 100vh;
     font-family: Roboto;
+    margin: 0 96px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
 }

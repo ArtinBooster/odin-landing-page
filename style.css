@@ -2,6 +2,7 @@ body {
     height: 100vh;
     font-family: Roboto;
     background-color: black;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,7 +51,7 @@ body > div {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
-    padding: 105px 208.5px 135px 208.5px;
+    padding: 105px 208.5px 138px 208.5px;
 }
 
 .brief-info-section > div > div {
@@ -93,4 +94,39 @@ body > div {
 .brief-info-image > div {
     color: white;
     font-size: 18px;
+}
+
+.detailed-info-section {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#detailed-info-title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 48px;
+}
+
+.items {
+    display: flex;
+    gap: 49px;
+}
+
+.item-image {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+    margin-bottom: 8px;
+}
+
+.item-info {
+    width: 160px;
+    color: gray;
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
 }

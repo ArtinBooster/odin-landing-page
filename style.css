@@ -1,8 +1,12 @@
 body {
     height: 100vh;
     font-family: Roboto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 0;
-    margin: 0;
+    margin: 0 15px 0 0;
 }
 
 ul {
@@ -16,22 +20,28 @@ a {
     color: #E5E7EB;
 }
 
-.header {
+body > div {
+    width: 1440px;
+    flex: 0 0 auto;
+}
+
+.header > div {
     background-color: #1F2937;
     display: flex;
     align-items: center;
-    padding: 8px 96px;
+    padding: 18px 208.5px;
 }
 
 .header-logo {
-    color: white;
+    color: #F9FAF8;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 800;
     margin-right: auto;
 }
 
 .header-links {
     font-size: 18px;
+    font-weight: 400;
     display: flex;
-    gap: 16px;
+    gap: 24px;
 }

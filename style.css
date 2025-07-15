@@ -197,3 +197,14 @@ body > div {
     flex: 0 0 auto;
     padding: 0 32px;
 }
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+}
+
+.footer > div {
+    color: white;
+    font-size: 18px;
+    margin: 40px auto;
+}

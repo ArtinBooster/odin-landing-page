@@ -157,3 +157,43 @@ body > div {
     align-self: flex-end;
     margin-right: 30px;
 }
+
+.sign-up-section {
+    background-color: white;
+}
+
+#sign-up-blue {
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 120px;
+    margin: 100px 208px;
+}
+
+#sign-up-first-text {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+#sign-up-second-text {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#sign-up-blue > button {
+    height: 36px;
+    background-color: #3882F6;
+    font-family: Roboto;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border: 2px solid white;
+    border-radius: 8px;
+    flex: 0 0 auto;
+    padding: 0 32px;
+}
